@@ -1,3 +1,31 @@
 body {
-    background-color: lightblue;
+    background-color: #ededed;
+    margin:50px;
+}
+h1{
+	text-align:center;
+	font-size:350%;
+	font-family:"times new roman";
+}
+h2{
+	text-align:center;
+	font-family:"times new roman";
+}
+p {
+	text-align:center;
+	margin:15px;
+	font-size:110%;
+	word-wrap:normal;
+	width: 100%;
+}
+img {
+	display:block;
+	margin:auto;
+}
+.text_area {
+	position:relative;
+	left:25%;
+	top:21px;
+	width:50%;
+	display:table;
 }
