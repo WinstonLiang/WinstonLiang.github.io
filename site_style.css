@@ -1,43 +1,54 @@
-body {
-    background-color: #C9E6F0;
-    margin:50px;
+body{
+	background-color:#E3DAE2;
+	margin-top:0px;
 }
-h1{
-	text-align:center;
-	font-size:350%;
-	font-family:"times new roman";
-	margin-bottom: 0em;
-}
-h2{
-	text-align:center;
-	font-family:"times new roman";
-	margin-top:0.2em;
-	margin-bottom:0.2em;
-}
-p {
-	text-align:center;
-	margin:15px;
-	font-size:110%;
-	word-wrap:normal;
-	width: 100%;
-}
-img {
-	display:block;
-	margin:auto;
-}
-.text_area {
-	position:relative;
-	left:20%;
-	top:21px;
-	width:60%;
-	display:table;
-}
-a:link{
-	text-decoration: none;
-}
-a:visited{
 
+h1{
+	font-family: "calibri";
+	font-size: 300%;
 }
-a:hover{
-	text-decoration: underline;
+
+.top_menu{
+	position:absolute;
+	width:100%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:0%;
+}
+
+.btn_group .button{
+	background-color:white;
+	border:1px solid #D1D1D1;
+	color:#9C9C9C;
+	padding: 1% 1%;
+	text-align: center;
+	text-decoration:none;
+	display: inline-block;
+	font-size:28px;
+	font-family:"calibri";
+	cursor:pointer;
+	width:20%;
+	float:left;
+}
+
+.btn_group .button:hover {
+	background-color:#D1D1D1;
+	color:white;
+}
+
+.button {
+	transition-duration: 0.5s;
+}
+
+.text_area_home{
+	text-align: center;
+	word-wrap:normal;
+	margin-left:25%;
+	margin-right:25%;
+	font-size:130%;
+}
+
+@font-face{
+	font-family:calibri;
+	src:"calibri.ttf";
 }
