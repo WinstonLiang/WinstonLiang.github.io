@@ -8,6 +8,10 @@ h1{
 	font-size: 300%;
 }
 
+h2{
+	margin-top:0px;
+}
+
 .top_menu{
 	position:absolute;
 	width:60%;
@@ -48,6 +52,36 @@ h1{
 	margin-left:25%;
 	margin-right:25%;
 	font-size:130%;
+	font-family: "calibri";
+}
+
+.project_desc_pill{
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	border-radius:250px;
+	height:350px;
+	margin-bottom:0px;
+	margin-bottom:0px;
+}
+
+.text_area_project_desc{
+	text-align:left;
+	word-wrap:normal;
+	margin-left:20%;
+	width:60%;
+	margin-right:20%;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:350px;
+	font-family: "calibri";
+	line-height:20px;
+}
+
+.project_page_pic{
+	float:right;
+	width:350px;
+	height:350px;
 }
 
 @font-face{
