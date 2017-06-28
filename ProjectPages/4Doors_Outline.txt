@@ -1,0 +1,8 @@
+Case scenarios:
+	-making things clear
+
+Map design:
+	-should've been based around the taxi cab distance
+
+Game design:
+	-helping the player

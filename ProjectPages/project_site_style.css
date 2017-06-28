@@ -1,0 +1,251 @@
+body{
+	background-color:#E3DAE2;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+h1{
+	font-family: "calibri";
+	font-size: 300%;
+}
+
+h2{
+	margin-top:0px;
+	padding-top:20px;
+}
+
+h3{
+	padding-bottom:0px;
+	margin-bottom:3px;
+}
+
+p{
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:110%;
+}
+
+.top_menu{
+	position:absolute;
+	width:60%;
+	margin-left:20%;
+	margin-top:0%;
+	border:0px;
+	padding:0px;
+	margin-right:20%;
+}
+
+.btn_group .button{
+	background-color:white;
+	border:1px solid #D1D1D1;
+	color:#9C9C9C;
+	padding: 1% 1%;
+	text-align: center;
+	text-decoration:none;
+	display: inline-block;
+	font-size:28px;
+	font-family:"calibri";
+	cursor:pointer;
+	width:33.33%;
+	float:left;
+}
+
+.btn_group .button:hover {
+	background-color:#D1D1D1;
+	color:white;
+}
+
+.button {
+	transition-duration: 0.5s;
+}
+
+.project_header{
+	position:relative;
+	margin-top:25px;
+	height:150px;
+	margin-bottom:0px;
+	overflow:hidden;
+}
+
+.current_project_name{
+	position:absolute;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	left:30%;
+	width:40%;
+	height:100%;
+	top:0px;
+}
+
+.project_name{
+	color:black;
+	font-family:"calibri";
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+
+.next_project{
+	position:relative;
+	left:-50%;
+	height:100%;
+	border-radius:80px;
+	width:60%;
+	margin-right:0px;
+	transition:0.5s ease;
+}
+
+.next_project:hover{
+	left:-30%;
+	cursor:pointer;
+}
+
+.next_project:hover .next_text{
+	opacity:1;
+}
+
+.next_text{
+	position:absolute;
+	left:52%;
+	top:35%;
+	font-family:"calibri";
+	font-size:40px;
+	transition:0.5s ease;
+	text-align:left;
+	opacity:0;
+}
+
+.prev_text{
+	position:absolute;
+	left:0%;
+	width:48%;
+	top:35%;
+	font-family:"calibri";
+	font-size:40px;
+	transition:0.5s ease;
+	text-align:right;
+	opacity:0;
+}
+
+.previous_project{
+	position:absolute;
+	top:0px;
+	left:90%;
+	height:150px;
+	width:60%;
+	border-radius:80px;
+	transition:0.5s ease;
+}
+
+.previous_project:hover{
+	left:70%;
+	cursor:pointer;
+}
+
+.previous_project:hover .prev_text{
+	opacity:1;
+}
+
+.text_area_home{
+	text-align: center;
+	word-wrap:normal;
+	margin-left:25%;
+	margin-right:25%;
+	font-size:130%;
+	font-family: "calibri";
+}
+
+.project_page_pill{
+	margin-left:20%;
+	width:60%;
+	border-radius:250px;
+	padding-bottom:15px;
+}
+
+.project_text{
+	position:relative;
+	left:10%;
+	width:80%;
+	text-align:center;
+	font-family:"calibri";
+	word-wrap:normal;
+}
+
+/*
+.project_desc_pill{
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+	border-radius:250px;
+	height:350px;
+	margin-bottom:0px;
+	margin-bottom:0px;
+}
+
+.text_area_project_desc{
+	text-align:left;
+	word-wrap:normal;
+	margin-left:20%;
+	width:30%;
+	margin-right:20%;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:350px;
+	font-family: "calibri";
+	line-height:20px;
+}
+
+.container{
+	position:absolute;
+	left:55%;
+}
+
+.project_page_pic{
+	position:absolute;
+	left:55%;
+
+	width:350px;
+	height:350px;
+}
+
+.link_pic{
+	width:350px;
+	height:350px;
+	float:right;
+}
+
+.overlay{
+	position:absolute;
+	width:350px;
+	height:350px;
+	opacity:0;
+	transition: 1s ease;
+	background-color: #FFFFFF;
+}
+
+.container:hover .overlay{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+.project_text{
+	color:black;
+	font-size:30px;	
+	font-family:"calibri";
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+*/
+
+@font-face{
+	font-family:calibri;
+	src:"calibri.ttf";
+}
