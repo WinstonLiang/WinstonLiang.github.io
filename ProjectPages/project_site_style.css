@@ -26,15 +26,6 @@ p{
 	font-size:110%;
 }
 
-a:link, a:visited{
-	color:black;
-	text-decoration: none;
-}
-
-a:link:active, a:visited:active{
-	color:black;
-}
-
 .top_menu{
 	position:absolute;
 	width:60%;
@@ -77,14 +68,23 @@ a:link:active, a:visited:active{
 	overflow:hidden;
 }
 
+.project_header a:link, a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+.project_header a:link:active, a:visited:active{
+	color:black;
+}
+
 .current_project_name{
 	position:absolute;
 	margin-left:0px;
 	margin-right:0px;
 	margin-top:0px;
 	margin-bottom:0px;
-	left:30%;
-	width:40%;
+	left:25%;
+	width:50%;
 	height:100%;
 	top:0px;
 }
