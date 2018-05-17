@@ -36,15 +36,32 @@ h2{
 	cursor:pointer;
 	width:33.33%;
 	float:left;
+	border-radius: 2px;
 }
 
 .btn_group .button:hover {
 	background-color:#D1D1D1;
+	border:5px solid white;
 	color:white;
 }
 
 .button {
 	transition-duration: 0.5s;
+}
+
+.btn_group .current {
+	background-color:#AFA0AE;
+	border:5px solid #997E97;
+	color:white;
+	padding: 1% 1%;
+	text-align: center;
+	text-decoration:none;
+	display: inline-block;
+	font-size:28px;
+	font-family:"calibri";
+	width:33.33%;
+	float:left;
+	border-radius: 2px;
 }
 
 .text_area_home{
@@ -64,6 +81,9 @@ h2{
 	height:350px;
 	margin-bottom:0px;
 	margin-bottom:0px;
+	border-style:solid;
+	border-width:5px;
+	border-color:rgba(0,0,0,0.1);
 }
 
 .text_area_project_desc{
@@ -93,18 +113,22 @@ h2{
 }
 
 .link_pic{
-	width:350px;
-	height:350px;
+	margin-top: 10px;
+	width:330px;
+	height:330px;
 	float:right;
+	border-radius: 10px;
 }
 
 .overlay{
+	margin-top: 10px;
 	position:absolute;
-	width:350px;
-	height:350px;
+	width:330px;
+	height:330px;
 	opacity:0;
 	transition: 1s ease;
-	background-color: #FFFFFF;
+	background-color: #C4B2C2;
+	border-radius: 10px;
 }
 
 .container:hover .overlay{
@@ -114,7 +138,7 @@ h2{
 
 .project_text{
 	color:black;
-	font-size:30px;	
+	font-size:29px;	
 	font-family:"calibri";
 	position:absolute;
 	top:50%;
